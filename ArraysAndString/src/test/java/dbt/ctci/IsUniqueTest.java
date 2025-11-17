@@ -10,4 +10,10 @@ class IsUniqueTest {
         String input = "Subdermatoglyphic";
         Assert.assertFalse(IsUnique.isUnique(input));
     }
+
+    @Test
+    void isUniqueChars() {
+        String input = "Subdermatoglyphic";
+        Assert.assertFalse(IsUnique.isUniqueChars(input));
+    }
 }
